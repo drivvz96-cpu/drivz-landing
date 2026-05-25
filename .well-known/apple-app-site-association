@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["F9BHJN425T.com.drivz2.app", "F9BHJN425T.com.drivz2.app.Clip"],
+        "components": [
+          { "/": "/listing/*", "comment": "Car listing detail pages" },
+          { "/": "/chat/*", "comment": "Deep link into a chat" },
+          { "/": "/", "exclude": true, "comment": "Home page opens in Safari" }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["F9BHJN425T.com.drivz2.app"]
+  },
+  "appclips": {
+    "apps": ["F9BHJN425T.com.drivz2.app.Clip"]
+  }
+}

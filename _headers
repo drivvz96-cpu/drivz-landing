@@ -1,0 +1,10 @@
+# Cloudflare Pages — per-route response headers.
+#
+# Apple's Universal Links validator requires the AASA file to be served
+# with Content-Type: application/json and no redirects. Without an
+# explicit override, Cloudflare guesses text/html (because the file has
+# no extension) and App Store Connect reports "Bad JSON Content."
+
+/.well-known/apple-app-site-association
+  Content-Type: application/json
+  Cache-Control: public, max-age=300
