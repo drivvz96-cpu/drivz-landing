@@ -3,25 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DrivZ — سوق السيارات المستعملة في السعودية</title>
-    <meta name="description" content="DrivZ — منصة بيع وشراء السيارات المستعملة في المملكة العربية السعودية. مجاني للنشر، رسوم ثابتة 195 ر.س بعد البيع فقط.">
+    <title>DrivZ — انشر سيارتك الجديدةاو المستعملة في السعودية مجاناً</title>
+    <meta name="description" content="DrivZ — المنصة الأسرع لبيع سيارتك المستعملة والجديدة في المملكة العربية السعودية. النشر مجاني تماماً وبدون أي عمولة نسبية، رسوم ثابتة 195 ر.س بعد البيع فقط.">
     <meta name="theme-color" content="#000000">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="DrivZ — سوق السيارات المستعملة">
-    <meta property="og:description" content="بيع واشتري السيارات المستعملة بكل سهولة">
+    <meta property="og:title" content="DrivZ — اعرض سيارتك مجاناً">
+    <meta property="og:description" content="انشر إعلان سيارتك في دقيقة وبدون عمولة ">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://drivz.net">
 
     <link rel="icon" href="favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="favicon.png">
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -67,7 +64,6 @@
 </head>
 <body>
 
-    <!-- Navigation -->
     <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" class="text-2xl font-black font-display tracking-tight">
@@ -77,63 +73,67 @@
                 <a href="#features" class="hover:text-gray-600 transition">المميزات</a>
                 <a href="#how" class="hover:text-gray-600 transition">كيف يعمل</a>
                 <a href="#faq" class="hover:text-gray-600 transition">الأسئلة الشائعة</a>
-                <a href="/support.html" class="hover:text-gray-600 transition">الدعم</a>
             </div>
             <a href="#download" class="bg-black text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-gray-800 transition">
-                حمّل التطبيق
+                حمّل التطبيق واعرض سيارتك
             </a>
         </div>
     </nav>
 
-    <!-- Hero -->
     <section class="pt-36 pb-24 px-6 relative overflow-hidden">
         <div class="max-w-7xl mx-auto">
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="fade-in">
                     <div class="inline-flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full text-sm font-medium mb-6">
                         <span class="w-2 h-2 bg-green-500 rounded-full"></span>
-                        متاح الآن في السعودية
+                        اعرض سيارتك مجاناً اليوم بالسعودية
                     </div>
-                    <h1 class="text-5xl md:text-7xl font-black leading-tight mb-6 tracking-tight">
-                        بيع سيارتك<br>
-                        <span class="gradient-text">بدون عناء</span>
+                    <h1 class="text-4xl md:text-6xl font-black leading-tight mb-6 tracking-tight">
+                        بع سيارتك المستعملة<br>
+                        <span class="gradient-text">بدون عمولة نسبية</span>
                     </h1>
                     <p class="text-xl text-gray-600 leading-relaxed mb-8">
-                        سوق السيارات المستعملة الأول في السعودية.
-                        النشر مجاني — رسوم ثابتة 195 ر.س بعد البيع فقط.
+                        أسرع طريقة لبيع سيارتك بدون شريطية وبدون تعقيد. 
+                        <strong class="text-black font-bold">النشر مجاني تماماً</strong> — رسوم ثابتة 195 ر.س بعد البيع فقط، ولا نأخذ 1% مثل المنصات الأخرى.
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="#download" class="bg-black text-white px-8 py-4 rounded-full font-semibold hover:bg-gray-800 transition inline-flex items-center justify-center gap-2">
-                            حمّل من App Store
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 mb-4">
+                        <a href="https://apps.apple.com/us/app/drivz/id6761720564" target="_blank" class="bg-black text-white px-6 py-3 rounded-xl font-semibold hover:bg-gray-800 transition inline-flex items-center justify-center gap-3 min-w-[200px]">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                            <div class="text-right">
+                                <span class="block text-[10px] opacity-70">حمّله من</span>
+                                <span class="block text-sm font-bold font-display -mt-1">App Store</span>
+                            </div>
                         </a>
-                        <a href="#how" class="border-2 border-black text-black px-8 py-4 rounded-full font-semibold hover:bg-black hover:text-white transition inline-flex items-center justify-center">
-                            شاهد كيف يعمل
+                        <a href="YOUR_GOOGLE_PLAY_LINK" class="bg-black text-white px-6 py-3 rounded-xl font-semibold hover:bg-gray-800 transition inline-flex items-center justify-center gap-3 min-w-[200px]">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M5.25 3.037a1.491 1.491 0 0 0-.294.996v15.934c0 .393.155.748.406 1.013l8.905-8.913L5.25 3.037zm10.038 4.887L18.42 9.61a2.235 2.235 0 0 1 0 3.88l-3.131 1.685-2.222-2.223 2.221-2.228zM6.435 2.115l7.98 4.296 2.062-2.067L7.755 1.22c-.524-.282-1.127-.123-1.32.895zM14.415 16.64l-7.983 4.296c-.19.102-.454.123-.677.025a.94.94 0 0 1-.418-.426c-.05-.1-.082-.213-.082-.334l2.13-2.133 7.03 2.572z"/></svg>
+                            <div class="text-right">
+                                <span class="block text-[10px] opacity-70">احصل عليه من</span>
+                                <span class="block text-sm font-bold font-display -mt-1">Google Play</span>
+                            </div>
                         </a>
                     </div>
-                    <div class="flex items-center gap-8 mt-12 text-sm text-gray-600">
+
+                    <div class="flex items-center gap-8 mt-8 text-sm text-gray-600">
                         <div class="flex items-center gap-2">
                             <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-                            بدون اشتراك
+                            نشر مجاني 100%
                         </div>
                         <div class="flex items-center gap-2">
                             <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-                            بدون وسطاء
+                            تواصل مباشر ع الواتساب
                         </div>
                         <div class="flex items-center gap-2">
                             <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-                            سهل وآمن
+                            بدون شريطية
                         </div>
                     </div>
                 </div>
 
-                <!-- Phone mockup -->
                 <div class="fade-in relative">
                     <div class="phone-shadow mx-auto w-72 h-[580px] bg-black rounded-[55px] p-3 relative">
-                        <!-- Dynamic island -->
                         <div class="absolute top-3 left-1/2 -translate-x-1/2 w-28 h-7 bg-black rounded-full z-20"></div>
                         <div class="w-full h-full bg-white rounded-[45px] overflow-hidden flex flex-col relative">
-                            <!-- Status bar space -->
                             <div class="h-12 flex items-center justify-between px-6 pt-3">
                                 <div class="text-[11px] font-semibold">9:41</div>
                                 <div class="flex items-center gap-1">
@@ -142,7 +142,6 @@
                                 </div>
                             </div>
 
-                            <!-- App header -->
                             <div class="flex items-center justify-between px-5 pb-3">
                                 <div class="bg-gray-100 rounded-full px-3 py-1.5 flex items-center gap-1">
                                     <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
@@ -155,7 +154,6 @@
                                 </div>
                             </div>
 
-                            <!-- Brand chips -->
                             <div class="flex gap-2 px-5 pb-3 overflow-hidden">
                                 <div class="bg-black text-white text-[9px] font-semibold px-3 py-1 rounded-full whitespace-nowrap">الكل</div>
                                 <div class="bg-gray-100 text-[9px] font-medium px-3 py-1 rounded-full whitespace-nowrap">تويوتا</div>
@@ -163,26 +161,20 @@
                                 <div class="bg-gray-100 text-[9px] font-medium px-3 py-1 rounded-full whitespace-nowrap">لكزس</div>
                             </div>
 
-                            <!-- Car listing card -->
                             <div class="flex-1 px-5 pb-4 space-y-3 overflow-hidden">
                                 <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100">
-                                    <!-- Car image -->
                                     <div class="relative h-36 overflow-hidden">
                                         <img src="camry.jpg" alt="Toyota Camry" class="w-full h-full object-cover">
-                                        <!-- Featured badge -->
                                         <div class="absolute top-2 right-2 bg-white/95 text-[8px] font-bold px-2 py-0.5 rounded-full flex items-center gap-0.5">
                                             <svg class="w-2 h-2 text-amber-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.799-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
                                             مميز
                                         </div>
-                                        <!-- Heart icon -->
                                         <div class="absolute top-2 left-2 w-7 h-7 bg-white/90 rounded-full flex items-center justify-center">
                                             <svg class="w-3.5 h-3.5 text-red-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"/></svg>
                                         </div>
-                                        <!-- Image counter -->
                                         <div class="absolute bottom-2 right-2 bg-black/60 text-white text-[8px] font-semibold px-1.5 py-0.5 rounded-full">1/8</div>
                                     </div>
 
-                                    <!-- Car info -->
                                     <div class="p-3 space-y-2">
                                         <div class="flex items-start justify-between">
                                             <h3 class="font-bold text-sm">تويوتا كامري GLX</h3>
@@ -202,8 +194,6 @@
                                                 <svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                                 <span>15,000 كم</span>
                                             </div>
-                                            <span>•</span>
-                                            <span>الرياض</span>
                                         </div>
                                         <div class="flex items-center justify-between pt-2 border-t border-gray-100">
                                             <div class="flex items-center gap-1.5">
@@ -211,17 +201,18 @@
                                                     <span class="text-white text-[8px] font-bold">م</span>
                                                 </div>
                                                 <div>
-                                                    <div class="text-[9px] font-semibold">معرض الخليج</div>
+                                                    <div class="text-[9px] font-semibold">أبو فهد</div>
                                                     <div class="text-[7px] text-gray-400">منذ ساعتين</div>
                                                 </div>
                                             </div>
-                                            <button class="bg-black text-white text-[9px] font-bold px-3 py-1.5 rounded-full">محادثة</button>
+                                            <button class="bg-green-500 text-white text-[9px] font-bold px-3 py-1.5 rounded-full flex items-center gap-1">
+                                                واتساب
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Bottom tab bar -->
                             <div class="border-t border-gray-100 px-5 py-2 flex items-center justify-around bg-white">
                                 <div class="flex flex-col items-center gap-0.5">
                                     <svg class="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>
@@ -237,7 +228,6 @@
                                 <div class="flex flex-col items-center gap-0.5 relative">
                                     <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
                                     <span class="text-[7px] text-gray-400">الرسائل</span>
-                                    <div class="absolute -top-1 right-2 w-3 h-3 bg-red-500 rounded-full text-[7px] text-white font-bold flex items-center justify-center">2</div>
                                 </div>
                                 <div class="flex flex-col items-center gap-0.5">
                                     <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
@@ -251,210 +241,124 @@
         </div>
     </section>
 
-    <!-- How it works -->
     <section id="how" class="py-24 px-6 bg-gray-50">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-16 fade-in">
-                <h2 class="text-4xl md:text-5xl font-black mb-4">كيف يعمل DrivZ؟</h2>
-                <p class="text-xl text-gray-600">ثلاث خطوات بسيطة لبيع أو شراء سيارتك</p>
+                <h2 class="text-4xl md:text-5xl font-black mb-4">خطوات البيع في DrivZ</h2>
+                <p class="text-xl text-gray-600">اعرض سيارتك للبيع في أقل من دقيقة</p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="fade-in bg-white rounded-3xl p-8 border border-gray-100">
                     <div class="w-14 h-14 bg-black text-white rounded-2xl flex items-center justify-center text-2xl font-black font-display mb-6">1</div>
-                    <h3 class="text-2xl font-bold mb-3">أضف إعلانك</h3>
+                    <h3 class="text-2xl font-bold mb-3">صور وانشر مجاناً</h3>
                     <p class="text-gray-600 leading-relaxed">
-                        التقط صور لسيارتك، أضف التفاصيل والسعر، وانشر إعلانك في دقائق.
+                        التقط 5 صور واضحة لسيارتك من جوالك، حدد السعر والمواصفات وانشر إعلانك مجاناً وبدون أي رسوم مسبقة.
                     </p>
                 </div>
 
                 <div class="fade-in bg-white rounded-3xl p-8 border border-gray-100">
                     <div class="w-14 h-14 bg-black text-white rounded-2xl flex items-center justify-center text-2xl font-black font-display mb-6">2</div>
-                    <h3 class="text-2xl font-bold mb-3">تواصل مع المشترين</h3>
+                    <h3 class="text-2xl font-bold mb-3">عروض مباشرة ع الواتساب</h3>
                     <p class="text-gray-600 leading-relaxed">
-                        استقبل رسائل مباشرة من المهتمين عبر المحادثة الآمنة داخل التطبيق.
+                        المشترين يتواصلون معك مباشرة وبشكل رسمي عبر تطبيق واتساب أو المحادثة الداخلية لتقديم سومهم.
                     </p>
                 </div>
 
                 <div class="fade-in bg-white rounded-3xl p-8 border border-gray-100">
                     <div class="w-14 h-14 bg-black text-white rounded-2xl flex items-center justify-center text-2xl font-black font-display mb-6">3</div>
-                    <h3 class="text-2xl font-bold mb-3">أتمم البيع</h3>
+                    <h3 class="text-2xl font-bold mb-3">رسوم ثابتة بعد البيع</h3>
                     <p class="text-gray-600 leading-relaxed">
-                        قابل المشتري، أتمم الصفقة، وادفع رسوم ثابتة 195 ر.س بعد البيع فقط.
+                        بعد أن تبيع موترك وتستلم فلوسك، ادفع رسوماً ثابتة قدرها 195 ريالاً فقط، مهما بلغت قيمة السيارة.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features -->
-    <section id="features" class="py-24 px-6">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-16 fade-in">
-                <h2 class="text-4xl md:text-5xl font-black mb-4">لماذا DrivZ؟</h2>
-                <p class="text-xl text-gray-600">كل ما تحتاجه لتجربة بيع وشراء مميزة</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="fade-in p-6 rounded-2xl border border-gray-100 hover:border-black transition">
-                    <div class="w-12 h-12 bg-black text-white rounded-xl flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
-                    </div>
-                    <h3 class="font-bold mb-2">محادثة فورية</h3>
-                    <p class="text-sm text-gray-600">تواصل مباشر مع البائعين والمشترين في الوقت الفعلي</p>
-                </div>
-
-                <div class="fade-in p-6 rounded-2xl border border-gray-100 hover:border-black transition">
-                    <div class="w-12 h-12 bg-black text-white rounded-xl flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
-                    </div>
-                    <h3 class="font-bold mb-2">إشعارات لحظية</h3>
-                    <p class="text-sm text-gray-600">لا تفوت أي رسالة أو عرض جديد على إعلانك</p>
-                </div>
-
-                <div class="fade-in p-6 rounded-2xl border border-gray-100 hover:border-black transition">
-                    <div class="w-12 h-12 bg-black text-white rounded-xl flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                    </div>
-                    <h3 class="font-bold mb-2">صور عالية الجودة</h3>
-                    <p class="text-sm text-gray-600">اعرض سيارتك بأفضل صورة مع دعم الصور المتعددة</p>
-                </div>
-
-                <div class="fade-in p-6 rounded-2xl border border-gray-100 hover:border-black transition">
-                    <div class="w-12 h-12 bg-black text-white rounded-xl flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                    </div>
-                    <h3 class="font-bold mb-2">تواصل آمن</h3>
-                    <p class="text-sm text-gray-600">حماية خصوصيتك مع نظام إبلاغ وحظر متكامل</p>
-                </div>
-
-                <div class="fade-in p-6 rounded-2xl border border-gray-100 hover:border-black transition">
-                    <div class="w-12 h-12 bg-black text-white rounded-xl flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
-                    </div>
-                    <h3 class="font-bold mb-2">بدون اشتراك</h3>
-                    <p class="text-sm text-gray-600">النشر مجاني تماماً، رسوم ثابتة 195 ر.س بعد البيع فقط</p>
-                </div>
-
-                <div class="fade-in p-6 rounded-2xl border border-gray-100 hover:border-black transition">
-                    <div class="w-12 h-12 bg-black text-white rounded-xl flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-                    </div>
-                    <h3 class="font-bold mb-2">بحث ذكي</h3>
-                    <p class="text-sm text-gray-600">فلاتر متقدمة ومرادفات عربية تجد ما تبحث عنه بسرعة</p>
-                </div>
-
-                <div class="fade-in p-6 rounded-2xl border border-gray-100 hover:border-black transition">
-                    <div class="w-12 h-12 bg-black text-white rounded-xl flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
-                    </div>
-                    <h3 class="font-bold mb-2">تقييمات حقيقية</h3>
-                    <p class="text-sm text-gray-600">نظام تقييم للبائعين يضمن تجربة موثوقة</p>
-                </div>
-
-                <div class="fade-in p-6 rounded-2xl border border-gray-100 hover:border-black transition">
-                    <div class="w-12 h-12 bg-black text-white rounded-xl flex items-center justify-center mb-4">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-                    </div>
-                    <h3 class="font-bold mb-2">سريع وسلس</h3>
-                    <p class="text-sm text-gray-600">تطبيق أصلي لنظام iOS بأداء فائق السرعة</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing banner -->
     <section class="py-24 px-6 bg-black text-white">
         <div class="max-w-4xl mx-auto text-center fade-in">
             <div class="inline-block bg-white/10 text-white text-sm px-4 py-2 rounded-full mb-6">
-                تسعير بسيط وشفاف
+                وداعاً للعمولات المرتفعة
             </div>
-            <h2 class="text-5xl md:text-7xl font-black mb-6">
-                مجاني للنشر
+            <h2 class="text-5xl md:text-6xl font-black mb-6">
+                النشر مجاني 100%
             </h2>
-            <p class="text-2xl text-gray-300 mb-2">
-                195 <span class="text-lg">ر.س</span>
+            <p class="text-4xl text-green-400 font-black mb-2">
+                195 <span class="text-lg text-white font-normal">ر.س</span>
             </p>
-            <p class="text-lg text-gray-400">رسوم ثابتة بعد إتمام البيع فقط</p>
-            <p class="text-sm text-gray-500 mt-8 max-w-2xl mx-auto">
-                لا توجد رسوم اشتراك، لا عمولات نسبية، لا مفاجآت. ادفع فقط عند إتمام عملية بيع سيارتك بنجاح.
+            <p class="text-lg text-gray-300">رسوم مقطوعة وثابتة بعد إتمام البيع فقط</p>
+            <p class="text-sm text-gray-400 mt-8 max-w-2xl mx-auto">
+                لماذا تدفع 1% من قيمة سيارتك (قد تصل إلى 1000 ريال أو أكثر) كعمولة لمنصات أخرى؟ مع DrivZ، رسومنا ثابتة وموحدة على الجميع ومجانية بالكامل حتى تبيع سيارتك بنجاح.
             </p>
         </div>
     </section>
 
-    <!-- FAQ -->
     <section id="faq" class="py-24 px-6">
         <div class="max-w-3xl mx-auto">
             <div class="text-center mb-16 fade-in">
-                <h2 class="text-4xl md:text-5xl font-black mb-4">الأسئلة الشائعة</h2>
+                <h2 class="text-4xl md:text-5xl font-black mb-4">الأسئلة الشائعة للبائعين</h2>
             </div>
 
             <div class="space-y-4">
                 <details class="fade-in bg-gray-50 rounded-2xl p-6 group" open>
                     <summary class="font-bold text-lg cursor-pointer list-none flex items-center justify-between">
-                        هل نشر الإعلان مجاني؟
+                        كم يكلفني نشر إعلان لسيارتي؟
                         <svg class="w-5 h-5 transition group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </summary>
-                    <p class="text-gray-600 mt-4">نعم، نشر الإعلانات مجاني تماماً. تدفع فقط رسوم ثابتة قدرها 195 ر.س بعد إتمام عملية البيع بنجاح.</p>
+                    <p class="text-gray-600 mt-4">النشر مجاني تماماً ولا توجد أي رسوم مسبقة أو اشتراكات. تدفع فقط رسوماً ثابتة بقيمة 195 ر.س بعد أن تبيع سيارتك بنجاح وتستلم أموالك.</p>
                 </details>
 
                 <details class="fade-in bg-gray-50 rounded-2xl p-6 group">
                     <summary class="font-bold text-lg cursor-pointer list-none flex items-center justify-between">
-                        كيف أتواصل مع البائع؟
+                        هل تأخذون نسبة 1% من قيمة السيارة مثل حراج؟
                         <svg class="w-5 h-5 transition group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </summary>
-                    <p class="text-gray-600 mt-4">اضغط على زر "محادثة" في صفحة السيارة لبدء محادثة مباشرة وآمنة داخل التطبيق.</p>
+                    <p class="text-gray-600 mt-4">لا، نحن لا نطبق نظام النسبة المئوية مطلقاً. رسومنا ثابتة وهي 195 ريالاً فقط، سواءً بعت سيارتك بـ 30,000 ريال أو بـ 300,000 ريال.</p>
                 </details>
 
                 <details class="fade-in bg-gray-50 rounded-2xl p-6 group">
                     <summary class="font-bold text-lg cursor-pointer list-none flex items-center justify-between">
-                        هل بياناتي الشخصية آمنة؟
+                        كيف يستطيع المشتري التواصل معي؟
                         <svg class="w-5 h-5 transition group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
                     </summary>
-                    <p class="text-gray-600 mt-4">نعم، نستخدم أحدث معايير الأمان ولا نشارك بياناتك مع أي طرف ثالث. يمكنك مراجعة <a href="/privacy.html" class="underline">سياسة الخصوصية</a> لمزيد من التفاصيل.</p>
-                </details>
-
-                <details class="fade-in bg-gray-50 rounded-2xl p-6 group">
-                    <summary class="font-bold text-lg cursor-pointer list-none flex items-center justify-between">
-                        هل يمكنني التفاوض على السعر؟
-                        <svg class="w-5 h-5 transition group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </summary>
-                    <p class="text-gray-600 mt-4">نعم، إذا فعّل البائع خيار "قابل للتفاوض" في إعلانه، يمكنك مناقشة السعر مباشرة عبر المحادثة.</p>
-                </details>
-
-                <details class="fade-in bg-gray-50 rounded-2xl p-6 group">
-                    <summary class="font-bold text-lg cursor-pointer list-none flex items-center justify-between">
-                        كيف أحذف حسابي؟
-                        <svg class="w-5 h-5 transition group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-                    </summary>
-                    <p class="text-gray-600 mt-4">من داخل التطبيق: اذهب إلى "حسابي" ← "الإعدادات" ← "حذف الحساب". سيتم حذف جميع بياناتك نهائياً.</p>
+                    <p class="text-gray-600 mt-4">يتيح التطبيق للمشترين خيارين سريعين: إما مراسلتك عبر دردشة التطبيق الداخلية الآمنة، أو فتح محادثة مباشرة معك عبر تطبيق واتساب لتقديم عروضهم فوراً.</p>
                 </details>
             </div>
         </div>
     </section>
 
-    <!-- Download CTA -->
     <section id="download" class="py-24 px-6 bg-gradient-to-b from-white to-gray-50">
         <div class="max-w-4xl mx-auto text-center fade-in">
-            <h2 class="text-4xl md:text-6xl font-black mb-6">ابدأ الآن</h2>
-            <p class="text-xl text-gray-600 mb-10">حمّل DrivZ من App Store وابدأ رحلتك</p>
-            <a href="#" class="inline-flex items-center gap-3 bg-black text-white px-10 py-5 rounded-2xl font-semibold text-lg hover:bg-gray-800 transition">
-                <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-                <div class="text-right">
-                    <div class="text-xs opacity-80">حمّله الآن من</div>
-                    <div class="text-xl font-black font-display">App Store</div>
-                </div>
-            </a>
+            <h2 class="text-4xl md:text-5xl font-black mb-6">ابدأ بيع سيارتك الآن</h2>
+            <p class="text-xl text-gray-600 mb-10">حمّل تطبيق DrivZ مجاناً واعرض موترك خلال دقيقة واحدة</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://apps.apple.com/us/app/drivz/id6761720564" target="_blank" class="bg-black text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-800 transition inline-flex items-center gap-3 min-w-[220px] justify-center">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                    <div class="text-right">
+                        <div class="text-xs opacity-80">تحميل من جهاز</div>
+                        <div class="text-lg font-black font-display -mt-1">App Store</div>
+                    </div>
+                </a>
+
+                <a href="YOUR_GOOGLE_PLAY_LINK" class="bg-black text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-800 transition inline-flex items-center gap-3 min-w-[220px] justify-center">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M5.25 3.037a1.491 1.491 0 0 0-.294.996v15.934c0 .393.155.748.406 1.013l8.905-8.913L5.25 3.037zm10.038 4.887L18.42 9.61a2.235 2.235 0 0 1 0 3.88l-3.131 1.685-2.222-2.223 2.221-2.228zM6.435 2.115l7.98 4.296 2.062-2.067L7.755 1.22c-.524-.282-1.127-.123-1.32.895zM14.415 16.64l-7.983 4.296c-.19.102-.454.123-.677.025a.94.94 0 0 1-.418-.426c-.05-.1-.082-.213-.082-.334l2.13-2.133 7.03 2.572z"/></svg>
+                    <div class="text-right">
+                        <div class="text-xs opacity-80">تحميل من جهاز</div>
+                        <div class="text-lg font-black font-display -mt-1">Google Play</div>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-black text-white py-16 px-6">
         <div class="max-w-7xl mx-auto">
             <div class="grid md:grid-cols-4 gap-12 mb-12">
                 <div>
                     <div class="text-3xl font-black font-display mb-4">Driv<span class="italic">Z</span></div>
-                    <p class="text-gray-400 text-sm">سوق السيارات المستعملة الأول في السعودية.</p>
+                    <p class="text-gray-400 text-sm">منصتك الأسرع والأوفر لبيع السيارات المستعملة بالسعودية.</p>
                 </div>
                 <div>
                     <h4 class="font-bold mb-4">المنتج</h4>
@@ -467,7 +371,6 @@
                 <div>
                     <h4 class="font-bold mb-4">الدعم</h4>
                     <ul class="space-y-2 text-gray-400 text-sm">
-                        <li><a href="/support.html" class="hover:text-white transition">مركز المساعدة</a></li>
                         <li><a href="mailto:support@drivz.net" class="hover:text-white transition">تواصل معنا</a></li>
                     </ul>
                 </div>
